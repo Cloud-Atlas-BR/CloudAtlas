@@ -32,3 +32,6 @@ jobs:
       - name: Test with pytest
         run: |
           poetry run pytest
+      - name: Publish Package to PyPi
+        run: |
+          poetry publish -u cloudatlas -p ${{ secrets.PyPi_Password }}
