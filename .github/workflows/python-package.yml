@@ -26,7 +26,7 @@ jobs:
           poetry-version: ${{ matrix.poetry-version }}
       - name: Install Dependences
         run: |
-          poetry install --no-dev
+          poetry install
       - name: Build Poetry
         run: poetry build
       - name: Test with pytest
