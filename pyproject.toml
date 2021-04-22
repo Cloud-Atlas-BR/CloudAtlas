@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "CloudAtlas"
-version = "0.0.4"
+version = "0.0.5"
 description = "Python Package for Cloud Atlas Projects"
 authors = ["Cloud Atlas <cloud.atlas.br@gmail.com>"]
 maintainers = ["Adelmo Filho <adelmo.aguiar.filho@gmail.com>", "Rodrigo Ekstein <rjekstein@gmail.com>"]
@@ -9,7 +9,6 @@ packages = [{ include = "CloudAtlas" }]
 readme = "README.md"
 repository = "https://github.com/Cloud-Atlas-BR/CloudAtlas"
 classifiers=[
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
